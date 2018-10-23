@@ -6,4 +6,6 @@ class CouponController < ActionController::Base
   end
 
   #GET /coupons/id
+  def show
+    @coupon = Coupon.find(params[:id])
 end
