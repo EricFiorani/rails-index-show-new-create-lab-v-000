@@ -4,4 +4,6 @@ class CouponController < ActionController::Base
   def index
     @coupons = Coupon.all
   end
+
+  #GET /coupons/id
 end
