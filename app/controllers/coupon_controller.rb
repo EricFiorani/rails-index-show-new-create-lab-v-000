@@ -1,4 +1,4 @@
-class CouponController < ActionController::Base
+class CouponController < ApplicationController
 
   #GET coupons all
   def index
