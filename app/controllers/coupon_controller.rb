@@ -11,5 +11,6 @@ class CouponController < ActionController::Base
   end
 
   #GET /coupons/new
-  def create
+  def new
+  end
 end
