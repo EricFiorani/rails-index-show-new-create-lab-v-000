@@ -9,4 +9,6 @@ class CouponController < ActionController::Base
   def show
     @coupon = Coupon.find_by(params[:id])
   end
+
+  #GET /coupons/new
 end
