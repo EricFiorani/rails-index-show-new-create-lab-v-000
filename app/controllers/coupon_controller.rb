@@ -7,5 +7,5 @@ class CouponController < ActionController::Base
 
   #GET /coupons/id
   def show
-    @coupon = Coupon.find(params[:id])
+    @coupon = Coupon.find_by(params[:id])
 end
