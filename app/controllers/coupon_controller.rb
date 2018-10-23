@@ -15,4 +15,7 @@ class CouponController < ActionController::Base
   end
 
   #POST coupons/new
+  def create
+    
+  end
 end
