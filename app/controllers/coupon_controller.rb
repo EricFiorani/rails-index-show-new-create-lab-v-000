@@ -13,4 +13,6 @@ class CouponController < ActionController::Base
   #GET /coupons/new
   def new
   end
+
+  #POST coupons/new
 end
