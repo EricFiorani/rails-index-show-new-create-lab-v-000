@@ -16,6 +16,6 @@ class CouponController < ActionController::Base
 
   #POST coupons/new
   def create
-    
+    @coupon = Coupon.create(coupon_code: params[:coupon][:coupon_code])
   end
 end
